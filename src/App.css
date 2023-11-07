@@ -52,6 +52,8 @@ nav{
 .location--details{
   display: flex;
   align-items: center;
+  margin-left: 0;
+  min-width: 40vw;
   
   
 }
@@ -125,6 +127,7 @@ padding: 20px 10px;
   float: left;
   left: 0;
   bottom: 10px;
+  padding: 30px 2px 0px 2px;
   
 }
   .card--image{
@@ -134,11 +137,20 @@ padding: 20px 10px;
   border-radius: 5px;
   }
   .card--stats{
-    display: flex;
+    display: flex;    
     flex-direction: column;
     font-size: 12px;
     text-align: left;
-    padding: 6em;
+    padding: 100px 10px;
+    margin-left: 10px;
+    
+  }
+  .location--details{
+    display: flex;
+    flex-direction: row;     
+    margin-left: 0;
+    min-width: 40vw;
+    
     
   }
   .country{
@@ -152,8 +164,7 @@ padding: 20px 10px;
   padding: 10px;
   }
   .card--link{
-    color: #f01f0c;
-    font-family: Inter;
+    color: #f01f0c; 
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
