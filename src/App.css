@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+nav{
+  margin-top: 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  color: white;
+  max-width: 95vw;
+  height: 65px;  
+  background: #F55A5A;
+  padding-left: 40%;
+}
+.nav--logo {
+  height: 4em; 
+ padding: 20px;
+ animation: 30s infinite alternate logo-spin ;
+  
+  
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  left: 0;
+  padding: 20px 40px;
+  align-items: center;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+}
+.location--details{
+  display: flex;
+  align-items: center;
+  
+  
+}
+.location--logo{
+  width: 10px;
+height: 12px;
+
+
+}
+.card--image{
+  width:  188px;
+height: 252px;
+flex-shrink: 0;
+border-radius: 5px;
+}
+.card--stats{
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  text-align: left;
+  padding: 2em;
+  
+}
+.country{
+  color: #2B283A;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 1.741px;
+padding: 20px 10px;
+}
+.card--link{
+  color: #f01f0c;
+  font-family: Inter;
+  /* font-size: 10.24px; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  padding: 20px;
+}

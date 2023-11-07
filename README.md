@@ -1,4 +1,8 @@
-# mtaliiJournal
-This is a project done using React JS.This is a travelling journal done by implemeting ReactDOM rendering and using .map() method to return an a new array of pictures and descriptions from a dataSource.
-Images are online from Unsplash.com
-This project is also hosted on Netlify
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
