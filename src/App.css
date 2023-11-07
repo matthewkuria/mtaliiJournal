@@ -114,10 +114,9 @@ padding: 20px 10px;
 .card {
   display: flex;
   position: relative;
-  flex-direction: row;
-  left: 0;
-  padding: 10px;
-  /* align-items: flex-start; */
+  flex-direction: row;  
+  padding: 0px 10px 10px 10px;
+  align-content: flex-end;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 
 }
@@ -131,9 +130,8 @@ padding: 20px 10px;
   
 }
   .card--image{
-    width:  125px;
-  height: 168px;
-  align-self: center;
+    width:  135px;
+  height: 180px; 
   border-radius: 5px;
   }
   .card--stats{
@@ -173,7 +171,8 @@ padding: 20px 10px;
     
   }
   .card--title{
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #f01f0c;
   }
 }
