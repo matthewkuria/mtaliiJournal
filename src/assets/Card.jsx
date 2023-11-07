@@ -12,7 +12,7 @@ export default function Card(props){
         </div>
          <h3>{props.title}</h3>
          <h4>{props.date}</h4>
-         <p>{props.description}</p>
+         <p className="card--desc">{props.description}</p>
          </div>
          <hr />
        </div>
