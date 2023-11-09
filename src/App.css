@@ -95,6 +95,11 @@ padding: 20px 10px;
   text-decoration-line: underline;
   padding: 20px;
 }
+.section--footer{
+  background-color:#F55A5A ;
+  height: 90px;
+  color: white;
+}
 @media (max-width:576px){
   nav{
     margin-top: 0;

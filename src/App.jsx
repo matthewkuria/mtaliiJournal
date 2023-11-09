@@ -1,6 +1,7 @@
 import NavBar from './assets/NavBar'
 import Card from './assets/Card'
 import CardData from './CardData'
+import Footer from './assets/Footer'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <div>
     <NavBar />
     {cardElements}
+    <Footer />
     </div>
   )
 }
